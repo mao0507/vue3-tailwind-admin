@@ -1,0 +1,28 @@
+{
+  "name": "vue-tailwind",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "eslint": "eslint --init",
+    "tailwind:init": "tailwindcss init -p"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.4.14",
+    "eslint": "^7.32.0 || ^8.2.0",
+    "pinia": "^2.0.36",
+    "postcss": "^8.4.24",
+    "tailwindcss": "^3.3.2",
+    "vue": "^3.3.2",
+    "vue-router": "^4.2.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.2.3",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-vue": "^9.14.1",
+    "vite": "^4.3.5"
+  }
+}
