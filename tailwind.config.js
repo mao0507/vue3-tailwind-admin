@@ -7,8 +7,8 @@ module.exports = {
   },
   plugins: [require('@tailwindcss/typography'), require('daisyui')],
   daisyui: {
-    themes: ['autumn', 'dark'], // 如果設為 true，將包含所有主題。 反之，僅有亮色和暗色主題可用。 如果設為陣列，將包含陣列中的主題，並將首主題設為預設主題。
-    darkTheme: 'dark', // 允許我們為系統的自動暗色模式選取其他主題。預設情況下，如果沒有指定主題，且使用者的系統啟用了暗色模式，預設主題將為dark
+    themes: ['autumn', 'dracula'], // 如果設為 true，將包含所有主題。 反之，僅有亮色和暗色主題可用。 如果設為陣列，將包含陣列中的主題，並將首主題設為預設主題。
+    darkTheme: '', // 允許我們為系統的自動暗色模式選取其他主題。預設情況下，如果沒有指定主題，且使用者的系統啟用了暗色模式，預設主題將為dark
     base: true, // 如果設為 true，將新增數個基礎樣式
     styled: true, // 如果設為 true，元件將包含顏色及樣式，您無需做任何調整。 反之，元件將無任何顏色或樣式，以便您設計自己的風格。
     utils: true, //如果設為 true，將新增響應式和公用類別
