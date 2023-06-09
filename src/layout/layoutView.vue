@@ -1,9 +1,13 @@
 <script setup>
 /* eslint-disable */
-import themeChange from '../components/themeChange.vue';
+import themeChange from '../components/themeChangeButton.vue';
+import siderBarViewVue from '../components/siderBarView.vue';
 </script>
 
 <template>
+  <!-- sidebar -->
+  <siderBarViewVue />
+
   <div class="button-container flex justify-center my-10">
     <button class="btn">Button</button>
     <button class="btn btn-primary">Button</button>
